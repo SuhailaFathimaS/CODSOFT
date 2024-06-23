@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6aa12ef94d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/LOGO2.png" alt="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li> 
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#protfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><button id="mode-toggle" class="btn3">Dark/Light</button></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Suhaila</span> <br> Fathima from India</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---about---->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate Web Developer and Data Analyst with a strong background in creating dynamic and responsive websites, as well as analyzing complex datasets to drive meaningful insights. My journey in technology has equipped me with a diverse skill set that spans across web development and artificial intelligence, allowing me to bridge the gap between front-end user experiences and back-end data processing.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Expertise in HTML, CSS, JavaScript, and various web development frameworks.</li>
+                            <li><span>Artificial Intelligence</span><br> Proficiency in machine learning algorithms and data analysis techniques.</li>
+                            <li><span>Data Manipulation</span><br>Experience in handling complex datasets and performing statistical analysis</li>
+                            <li><span>Programming Languages</span><br> Skilled in Python for AI and data analysis, have a great knowledge in C, C++,JAVA.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>Currently, I am working on innovative web development projects, where I design and implement user-friendly interfaces that prioritize both aesthetics and functionality. My expertise enables me to build websites that are not only visually appealing but also efficient and robust.
+
+                                In addition to my web development endeavors, I am deeply involved in artificial intelligence projects. I leverage machine learning algorithms and data analysis techniques to create intelligent systems that can learn, adapt, and provide insightful predictions. My experience allows me to develop AI models that solve real-world problems.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2026</span><br>
+                                <ul>
+                                    <li>Bachelor of Technology in Computer Science and Engineering</li>
+                                    <li>Minor Degree in Entrepreneurship and Innovation</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------services----------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Expertise in HTML, CSS, JavaScript, and various web development frameworks.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>Artificial Intelligence</h2>
+                    <p>Proficiency in machine learning algorithms and data analysis techniques.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Manipulation</h2>
+                    <p>Experience in handling complex datasets and performing statistical analysis</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------protfolio------- -->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connects you to the talented people around the world.
+                            Download it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connects you to the talented people around the world.
+                            Download it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connects you to the talented people around the world.
+                            Download it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>ssuhailafathima@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 8056957425</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copy-right">
+            <p>Copyright @ Suhaila. Made <i class="fas fa-heart"></i>with passion</p>
+        </div>
+    </footer>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        // Toggle between dark and light mode
+        function toggleMode() {
+            document.body.classList.toggle('light-mode');
+        }
+    
+        // Event listener for the mode toggle button
+        document.getElementById('mode-toggle').addEventListener('click', toggleMode);
+    </script>    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw6pLrorP7ueiwwJysNjtqcrBJLLtXsAsL_7s1zLZ12H_P-enpJIf9e577NhPjTEAue/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTime(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
